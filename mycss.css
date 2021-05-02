@@ -1,0 +1,208 @@
+body{background-color: black;
+	 height: 100%;}
+img {
+	display: block;
+}
+	
+	
+
+	
+/* Navigation-Bar css */
+.navbar {
+  overflow: hidden; 
+  background-color: #616161;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border-color: white; 
+}
+
+ .navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4c79af;
+  color: white;
+}  	
+
+/* Home page css */
+.hometext{
+	 line-height: 1.6;
+}	
+.home h1 {
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+#profilepic	
+	{float: left;	
+	 width:324px;
+	 height:489px;
+	 padding: 10px 10px;
+	}
+.divimg{
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 10px;
+}
+.home p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* Resume css */
+.resume{
+	line-height: 0.5;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.resumetitle h2{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	 font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.resumetitle p{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.resumeaddress p{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: right;
+}
+
+.resumeheader p{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+
+.resumetextlong p{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+}
+.resumetextbold p{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* Contact css */
+.contact{
+	line-height: 0.5;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.contacttitle h2{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	 font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.contacttitle p{
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.contacttitle a{
+	color: #4c79af;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* about css */
+ .aboutme{
+	 line-height: 0.5;
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+ }
+ #belgium	
+	{float: right;	
+	 width:403px;
+	 height:302px;
+	 padding: 10px 10px;
+	}
+.img1{
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 10px;
+}
+.about h1 {
+	color: white;
+	 font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+.about p{
+	margin-top: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+ #soccer	
+	{float: left;	
+	 width:352px;
+	 height:236px;
+	 padding: 10px 10px;
+	}
+.img2{
+	float: left;
+	margin-right: 50px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 50px;
+}

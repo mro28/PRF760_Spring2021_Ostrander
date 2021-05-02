@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Michael Ostrander</title>
+	<script src="lib\js\jquery-3.1.0.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href = "mycss.css" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  
+  <body>
+	
+	<!-- <div class="titlebar">
+		<h1>Michael Ostrander</h1>
+	</div> -->
+	<div class="navbar">
+	  <a class="active" id = "home" href="#home">Home</a>
+	  <a href="#resume" id = "resume">Resume/CV</a>
+	  
+	  <a href="#about" id = "about" >About Me</a>
+	  <a href="#contact" id = "contact">Contact</a>
+	</div>
+	
+	<!-- Home page -->
+	<div class="home">
+		<div class ="divimg">
+			<img id="profilepic" src="myassets\meround.jpg" alt="Me in the snow">
+		</div>
+		<div class ="hometext">
+			<h1>Welcome to my page!</h1>
+			<p>Thanks for stopping by! This website was created by me, Michael Ostrander, using HTML, Javascript, CSS, and JQuery. Most of the information I learned in school, but some of it needed to brushed up on and others, such as JQuery, had to be learned completely new. Fortunately, web libraries these days are getting easier and easier to use, making it no problem at all. With only 40 or so lines of JQuery script, I was able to implement the tabbing functionality up top (Home / Resume / About Me / Contact). If I were to only use Javascript, it would have taken much, much more and would have been that much more complicated. Other than that, basic CSS was used for the colors and text customization, and HTML was the underlying backbone of the layout and flow. If you would like more information on this site and how it was made, just ask!</p>
+			<p>"May your hats fly as high as your dreams..." -Michael Scott-</p>
+		</div>
+	</div>
+	
+	<!-- Resume page -->
+	<div class = "resume">
+		<div class = "resumetitle">
+			<h2>Michael Ostrander</h2>
+			<p>Email: mro28@pitt.edu</p>
+			<p>Phone: 314-635-7757</p>
+		</div>
+		<div class = "resumeaddress">
+			<p>5819 Elwood Street #4</p>
+			<p>Pittsburgh, PA 15232</p>
+		</div>
+		<div class = "resumeheader">
+			<p>Objective:</p>
+		</div>
+		<hr>
+		<div class = "resumetextlong">
+			<p>To obtain a teaching position relating to the field of Computer Science</p>
+		</div>
+		<br>
+		<div class = "resumeheader">
+			<p>Education:</p>
+		</div>
+		<hr>
+		<div class = "resumetextlong">
+			<p>University of Pittsburgh: – Pittsburgh, PA<br />Bachelor of Science in Computer Science<br />GPA: 3.35</p>
+		</div>
+		<br>
+		<div class = "resumeheader">
+			<p>Relevant Courses:</p>
+		</div>
+		<hr>
+		<div class = "resumetextlong">
+			<p>• Applied Cryptography and Network Security (Java)<br />• Algorithm Implementation (Java)<br />• Introduction to Operating Systems (C)<br />• Computer Organization and Assembly Language (MIPS)<br />• Data Communication and Computer Networking<br />• Software Quality Assurance<br />• Formal Methods in Computer Science<br />• Database Management Systems (Oracle SQL & Java)<br />• Web Site Design and Development (HTML/JavaScript)<br />• Calculus (Differentiation, Integration, and Linear Algebra)<br />• Introduction to Computer Architecture</p>
+		</div>
+		<br>
+		<div class = "resumeheader">
+			<p>Projects:</p>
+		</div>
+		<hr>
+		<div class = "resumetextbold">
+			<p>Cryptographically Secure File Sharing Application (Java) – Team member of three&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; January – April 2016</p>
+		</div>
+		<div class = "resumetextlong">
+			<p>• Implemented a cryptographically strong file sharing application using the BouncyCastle API. The threat model consisted ofthe basic assumptions that clients and File Servers were not to be trusted. These attacks could be carried out passively oractively.<br />• Mitigation techniques included session keys created through a Diffie-Hellman exchange, RSA signed tokens to prove client identity, AES encrypted traffic to prevent passive monitoring, SHA-256 HMAC to prevent replay attacks, and login limiting to prevent Denial of Service attacks.</p>
+		</div>
+		<div class = "resumetextbold">
+			<p>Single Cycle Processor Design in Logisim &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; January – April 2016</p>
+		</div>
+		<div class = "resumetextlong">
+			<p>• Used Logisim, a virtual logic circuit program, to construct a CPU that could read in basic assembly instructions and convert them into machine code, which were then processed in a useful manner. Instructions included arithmetic, pointer manipulation, and memory operations. This required designing an ALU, a Control Signal Unit, a PC incrementor, as well as Register and Memory Operation modules.</p>
+		</div>
+		<br>
+		<div class = "resumeheader">
+			<p>Work Experience:</p>
+		</div>
+		<hr>
+		<div class = "resumetextbold">
+			<p>Bechtel Marine Propulsion Laboratory: ICS Cyber Security Engineer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; December 2016 - Present</p>
+		</div>
+		<div class = "resumetextlong">
+			<p>• Currently undergoing security process to obtain Department of Energy Q Clearance, which takes upwards of two years. Responsibilities will include securing the Industrial Control Systems related to nuclear propulsion on US Naval vessels.</p>
+		</div>
+		<div class = "resumetextbold">
+			<p>Varsity Tutors (Freelance/Self Employed)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; December 2016 - Present</p>
+		</div>
+		<div class = "resumetextlong">
+			<p>• Educated students on the topics of Math, Science, and Programming on the “Varsity Tutors” platform. Tutoring occurred both online via webcam, as well as in person.<br />• Was in charge of developing personalized curriculums for the student based on their age and experience.</p>
+		</div>
+		<div class = "resumetextbold">
+			<p>ANSYS: Co-op&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; January 2015 – September 2016 (3 Semester Rotations)</p>
+		</div>
+		<div class = "resumetextlong">
+			<p>• Worked with the testing engineers to compile, test, and finalize testing packages for the customer. This included extensive usage of XML and familiarity with Python and JavaScript.<br />• Testing was conducted on all supported platforms, including Windows 7, 8, 10, Server 2012, Linux RedHat, SUSE, and Centos. Testing was often conducted remotely and required knowledge of Virtual Machines and VNC.<br />• Worked with the Quality Assurance engineers to assist in the continued compliance with ISO-9001 standards.</p>
+		</div>
+		<br>
+		<div class = "resumeheader">
+			<p>Other Experience:</p>
+		</div>
+		<hr>
+		<div class = "resumetextlong">
+			<p>• Attained the rank of Eagle Scout in December, 2010.<br />• Member of professional service organization Arnold Air Society/Silver Wings.<br />• Member of the Aviation and Engineering Fraternity Phi Alpha Chi.</p>
+		</div>
+	</div>
+	
+	<!-- Contact page -->
+	<div class = "contact">
+		<div class = "contacttitle">
+			<h2>Michael Ostrander</h2>
+			<p>Email: <a href="mailto:mro28@pitt.edu">mro28@pitt.edu</a></p>
+			<p>Phone: 314-635-7757</p>
+		</div>
+	</div>
+	
+	<!-- About me page -->
+	<div class = "about">
+		<div class = "belgium">
+			<div class ="img1">
+				<img id="belgium" src="myassets\belgium.jpg" alt="Picture of Belgium">
+			</div>
+			<div class "aboutbelgium">
+				<p>Hi, my name is Michael. I like soccer, coding, food, video games, and hanging out with my friends. My favorite soccer team is Newcastle United, who currently play in the English Premier League. You can see them pictured on the left. Currently my favorite video game is Rainbow Six: Siege, but I have a new favorite basically every other day. When I have time, I like to play soccer with some friends, especially now that Winter is finally over. I also enjoy swimming, playing with pets, and going for long walks on the beach. I'm also minorly addicted to chocolate. If you make a plate of chocolate chip cookes, don't be surprised if I eat all of them. I have visited two other countries, Ireland and Belgium. You can see the Grand Place in Brussels, Belgium pictured on the right. It was a city square originally built in the 13th century. That's some 800 years ago! Ireland is great too, they have great food, places to visit, and I think I also might have seen a leprechaun!</p>
+			</div>
+		</div>
+		<div class = "soccer">
+			<div class ="img2">
+				<img id="soccer" src="myassets\newcastle.jpg" alt="Picture of soccer ball">
+			</div>
+			<div class "aboutbelgium">
+				<p>My favorite thing about coding is the freedom of possibilites. With code, you literally can make anything you can think of. Our world is continually getting more wired, and with it come more opportunities for people to do the wiring. Much of our favorite applications and webpages were created by someone who sat down and thought, "Hmm, you know what would be cool? ..." With code, possibilities are literally endless, and that's a powerful tool.</p>
+			</div>
+		</div>
+	</div>
+	
+  </body>
+  <script src="myjquery.js"></script>
+</html>
