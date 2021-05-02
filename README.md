@@ -1,5 +1,5 @@
-# SI18-Technical-Projects-Part-1---Personal-Website
+# PRF760_Spring2021_Ostrander
 
 Created by: Michael Ostrander
 
-To view directly: https://mro28.github.io/SI18-Technical-Projects-Part-1---Personal-Website/
+To view directly: https://mro28.github.io/PRF760_Spring2021_Ostrander
